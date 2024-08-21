@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #00263e;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 40px;
+    margin: 10px;
+    width: 100%;
+}
+
+
+.header p {
+    border: 2px solid white;
+}
+
+.home  {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+}
+
+.home img {
+    display: flex;
+    align-self: center;
+}
+
+.top-banner-text li {
+    display: flex;
+    gap: 10%;
+    color: #fff;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-width: 920px;
+    margin: auto;
+    gap: unset;
+}
+
+.banner-margin {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    align-self: start;
+    margin-left:50px ;
+}
+
+.calc{
+    margin-top: 20%;
+    align-items: center;
+}
+
+.bg-orange {
+    background-color: #fff9f2;
+}
+
+.bg-blue {
+    background-color: #f0f3f5;
+}
+
+.right-padding {
+    color: blue;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.form-card1 {
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    margin-top: 150px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.form-only-calculator1 {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #f0f3f5;
+    margin: 30px;
+    padding: 30px;
+}
+
+.cost-only-calculator {
+    margin-top: 20px;
+    padding-top: 100px;
+    display: block;
+}
+
+.FirstName {
+    width: 350px;
+}
+
+.MobileNumber {
+    width: 350px;
+}
+
+.btn-primary {
+    width: 350px;
+    justify-content: center;
+}
+
+.btn-danger {
+    width: 350px;
+}
+
+.bg-purple {
+    background-color: #fff9f2;
+    align-items: center;
+    text-align: start;
+    color: black;
+    margin: 25px;
+    padding: 25px;
+}
+
+.ortho-stages-container {
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    align-self: center;
+}
+
+.btn-info {
+    width: 350px;
+    justify-content: center;
+    padding-left: 8%;
+    margin-left: 340px;
+    height: 50px;
+}
+
+.btn-warning {
+    width: 350px;
+    justify-content: center;
+    padding-left: 80px;
+    margin-left: 340px;
+    height: 50px;
+}
+
+.laser-treatment {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table-heading {
+    display: flex;
+    margin-top: 10px;
+}
+
+.table h2 {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.table {
+    padding: 50px;
+}
+
+.btn-outline-primary {
+    width: 350px;
+}
+
+.sequence-image {
+    max-width: 182px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.image-start {
+    margin: 2.2em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.Containers {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20%;
+    max-width: 100vw;
+    max-height: 140vh;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.ques {
+    background-color: white;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.ques:hover {
+    background-color: white;
+}
+
+.ans {
+    max-height: 10px;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height .3s ease-in-out;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq i {
+    transition: all .3s ease-in-out;
+}
+
+.faq.active i {
+    transform: rotate(45deg);
+}
+
+.faq.active .ans {
+    max-height: 300px;
+}
+
+.ans p{
+    background-color: wheat;
+    padding: 30px;
+    font-size: 30px;
+    border-top: 1px solid #000;
+}
+
+.footer {
+    background-color: #00263e;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 40px;
+}
+
+.footer-heading {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+#bundle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.copyright {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    body {
+        color: blue;
+    }
+}
+
